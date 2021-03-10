@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" DefaultTargets="Build" 
-  xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -45,24 +44,25 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Data.v20.1" />
-    <Reference Include="DevExpress.Pdf.v20.1.Core" />
-    <Reference Include="DevExpress.Office.v20.1.Core" />
-    <Reference Include="DevExpress.RichEdit.v20.1.Core" />
-    <Reference Include="DevExpress.RichEdit.v20.1.Export" />
-    <Reference Include="DevExpress.Printing.v20.1.Core" />
-    <Reference Include="DevExpress.Data.Desktop.v20.1" />
-    <Reference Include="DevExpress.Utils.v20.1" />
-    <Reference Include="DevExpress.Xpo.v20.1" />
-    <Reference Include="DevExpress.XtraEditors.v20.1" />
-    <Reference Include="DevExpress.XtraPrinting.v20.1" />
-    <Reference Include="DevExpress.XtraGrid.v20.1" />
-    <Reference Include="DevExpress.XtraLayout.v20.1" />
-    <Reference Include="DXTraining.EventsDB, Version=1.0.4.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\DXTraining.EventsDB.1.0.4\lib\net452\DXTraining.EventsDB.dll</HintPath>
+    <Reference Include="DevExpress.Data.v20.2, Version=20.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.Data.20.2.4\lib\net452\DevExpress.Data.v20.2.dll</HintPath>
     </Reference>
-    <Reference Include="DXTraining.EventsDB.Populate, Version=1.0.8.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\DXTraining.EventsDB.Populate.1.0.8\lib\net452\DXTraining.EventsDB.Populate.dll</HintPath>
+    <Reference Include="DevExpress.Pdf.v20.2.Core" />
+    <Reference Include="DevExpress.Office.v20.2.Core" />
+    <Reference Include="DevExpress.RichEdit.v20.2.Core" />
+    <Reference Include="DevExpress.RichEdit.v20.2.Export" />
+    <Reference Include="DevExpress.Printing.v20.2.Core" />
+    <Reference Include="DevExpress.Data.Desktop.v20.2" />
+    <Reference Include="DevExpress.Utils.v20.2" />
+    <Reference Include="DevExpress.Xpo.v20.2, Version=20.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.Xpo.20.2.4\lib\net452\DevExpress.Xpo.v20.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v20.2" />
+    <Reference Include="DevExpress.XtraPrinting.v20.2" />
+    <Reference Include="DevExpress.XtraGrid.v20.2" />
+    <Reference Include="DevExpress.XtraLayout.v20.2" />
+    <Reference Include="DXTraining.EventsDB, Version=20.2.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\DXTraining.EventsDB.20.2.0.1\lib\net452\DXTraining.EventsDB.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
