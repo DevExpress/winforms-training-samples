@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5FDCA8BA-A5D6-406B-8089-C4D1E9104C87}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>sample_4_4</RootNamespace>
+    <AssemblyName>sample_4_4</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v20.1" />
+    <Reference Include="DevExpress.Charts.v20.1.Core" />
+    <Reference Include="DevExpress.Data.v20.1" />
+    <Reference Include="DevExpress.Pdf.v20.1.Core" />
+    <Reference Include="DevExpress.RichEdit.v20.1.Export" />
+    <Reference Include="DevExpress.Printing.v20.1.Core" />
+    <Reference Include="DevExpress.Office.v20.1.Core" />
+    <Reference Include="DevExpress.RichEdit.v20.1.Core" />
+    <Reference Include="DevExpress.Data.Desktop.v20.1" />
+    <Reference Include="DevExpress.Utils.v20.1" />
+    <Reference Include="DevExpress.Xpo.v20.1" />
+    <Reference Include="DevExpress.XtraBars.v20.1" />
+    <Reference Include="DevExpress.XtraCharts.v20.1.Wizard" />
+    <Reference Include="DevExpress.XtraCharts.v20.1" />
+    <Reference Include="DevExpress.XtraCharts.v20.1.UI" />
+    <Reference Include="DevExpress.XtraEditors.v20.1" />
+    <Reference Include="DevExpress.XtraGauges.v20.1.Core" />
+    <Reference Include="DevExpress.XtraGauges.v20.1.Win" />
+    <Reference Include="DevExpress.XtraGrid.v20.1" />
+    <Reference Include="DevExpress.XtraLayout.v20.1" />
+    <Reference Include="DevExpress.XtraNavBar.v20.1" />
+    <Reference Include="DevExpress.XtraPivotGrid.v20.1" />
+    <Reference Include="DevExpress.PivotGrid.v20.1.Core" />
+    <Reference Include="DevExpress.XtraPrinting.v20.1" />
+    <Reference Include="DevExpress.XtraReports.v20.1.Extensions" />
+    <Reference Include="DevExpress.Utils.v20.1.UI" />
+    <Reference Include="DevExpress.Sparkline.v20.1.Core" />
+    <Reference Include="DevExpress.CodeParser.v20.1" />
+    <Reference Include="DevExpress.XtraReports.v20.1" />
+    <Reference Include="DevExpress.XtraScheduler.v20.1.Reporting.Extensions" />
+    <Reference Include="DevExpress.XtraScheduler.v20.1" />
+    <Reference Include="DevExpress.XtraScheduler.v20.1.Core" />
+    <Reference Include="DevExpress.XtraTreeList.v20.1" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v20.1" />
+    <Reference Include="DXTraining.EventsDB, Version=1.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+<HintPath>..\packages\DXTraining.EventsDB.1.0.4\lib\net452\DXTraining.EventsDB.dll</HintPath>
+</Reference>
+<Reference Include="DXTraining.EventsDB.Populate, Version=1.0.8.0, Culture=neutral, processorArchitecture=MSIL">
+<HintPath>..\packages\DXTraining.EventsDB.Populate.1.0.8\lib\net452\DXTraining.EventsDB.Populate.dll</HintPath>
+</Reference>
+<Reference Include="pct.BizRulez, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+<HintPath>..\packages\BizRulez.1.0.2\lib\net40\pct.BizRulez.dll</HintPath>
+</Reference>
+
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashboardControls\EventsCurrentYear.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DashboardControls\EventsCurrentYear.Designer.cs">
+      <DependentUpon>EventsCurrentYear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashboardControls\Placeholder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DashboardControls\Placeholder.designer.cs">
+      <DependentUpon>Placeholder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashboardControls\RoomBookingsCurrentYear.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DashboardControls\RoomBookingsCurrentYear.Designer.cs">
+      <DependentUpon>RoomBookingsCurrentYear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashboardControls\VenueDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DashboardControls\VenueDetails.Designer.cs">
+      <DependentUpon>VenueDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashboardControls\Venues.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DashboardControls\Venues.Designer.cs">
+      <DependentUpon>Venues.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PivotOverview.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PivotOverview.Designer.cs">
+      <DependentUpon>PivotOverview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RoomBookingView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RoomBookingView.Designer.cs">
+      <DependentUpon>RoomBookingView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomerList.Designer.cs">
+      <DependentUpon>CustomerList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EventView.Designer.cs">
+      <DependentUpon>EventView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashboardControls\EventsCurrentYear.resx">
+      <DependentUpon>EventsCurrentYear.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashboardControls\Placeholder.resx">
+      <DependentUpon>Placeholder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashboardControls\RoomBookingsCurrentYear.resx">
+      <DependentUpon>RoomBookingsCurrentYear.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashboardControls\VenueDetails.resx">
+      <DependentUpon>VenueDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashboardControls\Venues.resx">
+      <DependentUpon>Venues.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PivotOverview.resx">
+      <DependentUpon>PivotOverview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoomBookingView.resx">
+      <DependentUpon>RoomBookingView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerList.resx">
+      <DependentUpon>CustomerList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventView.resx">
+      <DependentUpon>EventView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="TransactionalChangeHandler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customers.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\venue.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\roombooking-alt.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pivotoverview.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\savechanges.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\discardchanges.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printexport.svg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

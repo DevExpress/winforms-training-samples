@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Drawing;
+using System.Data;
+using System.Text;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using DevExpress.XtraEditors;
+using EventsDB;
+using DevExpress.Xpo;
+using DevExpress.Data.Filtering;
+
+namespace sample_5_10.DashboardControls {
+  public partial class VenueDetails : DevExpress.XtraEditors.XtraUserControl {
+    public VenueDetails() {
+      InitializeComponent();
+    }
+
+    public void ConfigureSingleVenueChart(Venue venue) {
+      singleVenueChart.DataSource =
+        new XPCollection<RoomBooking>(uow, new BinaryOperator("Room.Venue.Oid", venue.Oid));
+    }
+  }
+}
