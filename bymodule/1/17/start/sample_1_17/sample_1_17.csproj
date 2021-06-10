@@ -34,18 +34,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.BonusSkins.v20.2" />
-    <Reference Include="DevExpress.Data.v20.2" />
-    <Reference Include="DevExpress.Data.Desktop.v20.2" />
-    <Reference Include="DevExpress.Utils.v20.2" />
-    <Reference Include="DevExpress.Sparkline.v20.2.Core" />
-    <Reference Include="DevExpress.XtraEditors.v20.2" />
-    <Reference Include="DevExpress.Printing.v20.2.Core" />
-    <Reference Include="DevExpress.XtraGauges.v20.2.Core" />
-    <Reference Include="DevExpress.XtraGauges.v20.2.Win" />
-    <Reference Include="DevExpress.XtraGrid.v20.2" />
-    <Reference Include="DevExpress.XtraLayout.v20.2" />
-    <Reference Include="DevExpress.XtraPrinting.v20.2" />
+    <Reference Include="DevExpress.BonusSkins.v21.1" />
+    <Reference Include="DevExpress.Data.v21.1" />
+    <Reference Include="DevExpress.Data.Desktop.v21.1" />
+    <Reference Include="DevExpress.Utils.v21.1" />
+    <Reference Include="DevExpress.Sparkline.v21.1.Core" />
+    <Reference Include="DevExpress.XtraEditors.v21.1" />
+    <Reference Include="DevExpress.Printing.v21.1.Core" />
+    <Reference Include="DevExpress.XtraGauges.v21.1.Core" />
+    <Reference Include="DevExpress.XtraGauges.v21.1.Win" />
+    <Reference Include="DevExpress.XtraGrid.v21.1" />
+    <Reference Include="DevExpress.XtraLayout.v21.1" />
+    <Reference Include="DevExpress.XtraPrinting.v21.1" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
